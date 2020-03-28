@@ -700,10 +700,18 @@ p {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
 }
-
+.col-xs-12{
+width: 100%!important;
+margin: auto!important;
+}
+#bloc-3-what-i-do a {
+    font-size: 1.6rem;
+}
+#bloc-3-what-i-do p {
+    font-size: 1.4rem;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
@@ -824,6 +832,19 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+footer .row .col-sm-4 {
+    display: flex;
+    flex-flow: column nowrap;
+}
+footer .row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+#bloc-4-portfolio p {
+    font-size: 1.4rem;
+}
 #bloc-7 .bloc-lg .row{
     display:grid;
 }
@@ -831,6 +852,8 @@ h4 {
     display: flex;
     justify-content: center;
     flex-flow: row;
+    padding: 1rem 3rem;
+    width: auto!important;
 }
 #bloc-7 .bloc-lg .row .col-sm-6 p{
   font-size: 1.5rem;
@@ -842,10 +865,23 @@ h4 {
     font-size: 18px;
     padding: 1rem 2rem;
 }
+footer .col-sm-12 .row .col-sm-4 li a {
+    line-height: 2rem;
+    font-weight: 700;
+    line-height: 4rem!important;
+    display: block;
+}
 .black-background {
     background-color: rgba(165,147,99,.7);
     padding: 40px 40px 40px 40px;
 }
+.tc-white {
+    color: #f8b89b!important;
+}
+#bloc-6 p {
+    font-size: 1.6rem;
+}
+
 @media (max-width: 650px) {
     .social{
         display: grid;
