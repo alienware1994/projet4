@@ -477,6 +477,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: #424242!important;
 }
 
 .icon-lg {
@@ -792,7 +793,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #000000!important;
     color: #FFFFFF!important;
 }
 
@@ -865,6 +866,7 @@ footer .row {
     font-size: 18px;
     padding: 1rem 2rem;
 }
+
 footer .col-sm-12 .row .col-sm-4 li a {
     line-height: 2rem;
     font-weight: 700;
@@ -881,7 +883,18 @@ footer .col-sm-12 .row .col-sm-4 li a {
 #bloc-6 p {
     font-size: 1.6rem;
 }
-
+@media (max-width: 650px){
+footer .row .col-sm-4 {
+    display: none;
+  }
+  footer .row{
+    display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        width: auto;
+  }
+}
 @media (max-width: 650px) {
     .social{
         display: grid;
