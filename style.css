@@ -832,7 +832,26 @@ h4 {
     justify-content: center;
     flex-flow: row;
 }
-
+#bloc-7 .bloc-lg .row .col-sm-6 p{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+#bloc-8 p {
+    color: #424242!important;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 1rem 2rem;
+}
+.black-background {
+    background-color: rgba(165,147,99,.7);
+    padding: 40px 40px 40px 40px;
+}
+@media (max-width: 650px) {
+    .social{
+        display: grid;
+        grid-template: 1fr 1fr;
+    }
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
