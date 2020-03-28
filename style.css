@@ -897,8 +897,9 @@ footer .row .col-sm-4 {
 }
 @media (max-width: 650px) {
     .social{
-        display: grid;
+        display: grid!important;
         grid-template: 1fr 1fr;
+        padding: 8px
     }
 }
 @media (max-width: 1024px) {
